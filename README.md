@@ -1,0 +1,2 @@
+# Nmenosum
+ Funciona maldição

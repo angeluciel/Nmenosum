@@ -1,0 +1,33 @@
+### GET ALL
+GET http://localhost:3009/api/livros
+Content-Type: application/json
+
+### GET by id
+GET http://localhost:3009/api/livros/1
+Content-Type: application/json
+
+### POST livro
+POST http://localhost:3009/api/livros
+Content-Type: application/json
+
+{
+    "titulo": "livro MUITO chato",
+    "data": "2020-01-01",
+    "autor": "Paulinho Oloco"
+}
+
+### UPDATE livro
+PUT http://localhost:3009/api/livros/03
+Content-Type: application/json
+
+{
+    "titulo": "Overgeared",
+    "data": "2021-02-01",
+    "autor": "Kim-chu Jul"
+}
+
+### DELETE livro
+DELETE http://localhost:3009/api/livros/3
+Content-Type: application/json
+
+###
